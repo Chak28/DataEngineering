@@ -14,8 +14,6 @@ This repo provides the ETL pipeline, to ingest sparkify's music data into an AWS
 ---
 * Note that you will need to have Airflow installed. To do so, run `pip install airflow`
 
-* To use postgres to store metadata from airflow jobs, edit airflow.cfg file under the AIRFLOW_HOME dir. Refer to https://gist.github.com/rosiehoyem/9e111067fe4373eb701daf9e7abcc423 for set up instructions
-
 * Run: `airflow webserver -p 8080`. Refer to https://airflow.apache.org/docs/stable/start.html for more details on how to get started,
 
 * Configure aws_credentials in Airflow using access and secret access keys. (under Airflow UI >> Admin >> Connections)
